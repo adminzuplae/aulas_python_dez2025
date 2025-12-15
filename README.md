@@ -10,3 +10,14 @@ Repositório de aulas para o curso de Python
  - Operações
  - Conversões
  - Entrada de dados (input)
+
+ ## 2. Modulo 003 - Estruturas essenciais
+ - Estrutura de dados - Lista
+ - Estrutura de dados - Tuplas
+ - Estrutura de dados - Dicionários
+ - Estrutura de decisão - IF
+ - Estrutura de decisão - Match Case
+ - Estrutura de repetição - For
+ - Estrutura de repetição - While
+ - Funções
+ - Modularização
