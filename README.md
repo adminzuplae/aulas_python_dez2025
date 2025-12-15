@@ -21,3 +21,13 @@ Repositório de aulas para o curso de Python
  - Estrutura de repetição - While
  - Funções
  - Modularização
+
+ ## 3. Módulo 004 - Git/ Github
+ - Git - configs e SSH
+ - GitHub - Repositório
+ - .gitigore, arquivos .md
+ - Clone de repositório e ajustes do código
+ - Git add, commit e push
+ - Git branch
+ - Git Merge
+ - GitHub -  Pull Request
