@@ -1,7 +1,14 @@
 # Aulas Jornada Python
 Repositório de aulas para o curso de Python
 
-## 1. Modulo 002 - Fundamentos de Python
+## 1. Modulo 001 - Ambiente
+ - Instalação do Python
+ - Instalação do VsCode
+ - Instalação do Git
+ - Criação de conta no GitHub
+
+
+## 2. Modulo 002 - Fundamentos de Python
  - Saída de dados (print)
  - Função format
  - F-Strings
@@ -11,7 +18,7 @@ Repositório de aulas para o curso de Python
  - Conversões
  - Entrada de dados (input)
 
- ## 2. Modulo 003 - Estruturas essenciais
+ ## 3. Modulo 003 - Estruturas essenciais
  - Estrutura de dados - Lista
  - Estrutura de dados - Tuplas
  - Estrutura de dados - Dicionários
@@ -22,7 +29,7 @@ Repositório de aulas para o curso de Python
  - Funções
  - Modularização
 
- ## 3. Módulo 004 - Git/ Github
+ ## 4. Módulo 004 - Git/ Github
  - Git - configs e SSH
  - GitHub - Repositório
  - .gitigore, arquivos .md
