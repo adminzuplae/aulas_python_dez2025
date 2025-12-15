@@ -1,0 +1,17 @@
+nome = input('Digite o nome: ')
+sobrenome = input('Digite o sobrenome: ')
+idade = int(input('Digite a idade: '))
+salario = float(input('Digite o salario: '))
+ativo = bool(input('Digite se o usuario esta ativo (True/False): '))
+
+print(nome)
+print(sobrenome)
+print(idade)
+print(salario)
+print(ativo)
+
+print(type(nome))
+print(type(sobrenome))
+print(type(idade))
+print(type(salario))
+print(type(ativo))
