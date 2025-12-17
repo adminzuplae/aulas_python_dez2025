@@ -1,0 +1,16 @@
+[
+    {
+        "nome": "Maria",
+        "sobrenome": "Silva",
+        "idade": 34,
+        "salario": 2897.87,
+        "ativo": true
+    },
+    {
+        "nome": "Maria",
+        "sobrenome": "Silva",
+        "idade": 34,
+        "salario": 2897.87,
+        "ativo": true
+    }
+]
