@@ -38,3 +38,9 @@ Repositório de aulas para o curso de Python
  - Git branch
  - Git Merge
  - GitHub -  Pull Request
+
+ ## 5. Módulo 005 - Trabalhando com arquivos
+  - Arquivos texto
+  - Arquivos CSV
+  - Arquivos JSON
+  - Tratamento de erros
