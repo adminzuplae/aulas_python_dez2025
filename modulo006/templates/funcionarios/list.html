@@ -1,0 +1,24 @@
+    <a href="/funcionarios/create" class="btn btn-primary mb-3">Cadastrar novo</a>
+
+    <table class="table table-dark table-striped table-hover">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sobrenome</th>
+                <th>Idade</th>
+                <th>Salário</th>
+                <th>Ativo</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for p in funcionarios %}
+            <tr>
+                <td>{{ p['nome'] }}</td>
+                <td>{{ p['sobrenome'] }}</td>
+                <td>{{ p['idade'] }}</td>
+                <td>{{ p['salario'] }}</td>
+                <td>{{ p['ativo'] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>

@@ -44,3 +44,31 @@ Repositório de aulas para o curso de Python
   - Arquivos CSV
   - Arquivos JSON
   - Tratamento de erros
+
+ ## 6. Módulo 006 - Web com Flask
+  - Como funciona a WEB
+  - Ambiente Flask
+  - Criando Rotas
+  - Jinja, templates
+  - Statics, css, img
+  - Forms GET e POST
+  - Salvando em CSV
+  - Bootstrap, refatoração e subpaginas
+
+ ## 7. Módulo 007 - APIs
+  - Como funciona o HTTP
+  - O que é uma API
+  - Consumindo uma API
+  - Consultado CEP e Tratando erros
+  - Integrando com o Flask
+
+ ## 8. Módulo 008 - Deploy
+  - O que é Deploy e Render
+  - Subindo um projeto e testando
+  - Atualizando um projeto no Render
+
+ ## 9. Módulo 009 - Projeto Final
+  - Planejamento
+  - Componetização e Responsabilidade
+  - Estrutura
+  - Github e Deploy

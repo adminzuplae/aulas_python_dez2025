@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block titulo %} 
+Página home
+{% endblock %}
+
+{% block conteudo %}
+<h1>Olá! Bem vindo ao {{nome_sistema}}</h1>
+<h6>Sistema para consulta de CEP</h6>
+
+<form class="col-md-6" method="post" action="/cep">
+    <div class="mb-3">
+        <label for="cep" class="form-label">CEP</label>
+        <input class="form-control" type="text" name="cep" id="cep" placeholder="Digite o CEP" required>
+    </div>
+    <button type="submit" class="btn btn-success">Adicionar</button>
+</form>
+
+{% if endereco %}
+    <div class="alert alert-success">
+        <strong>Endereço encontrado:</strong>
+        <ul>
+            <li>Logradouro: {{ endereco.logradouro }}</li>
+            <li>Bairro: {{endereco.bairro}}</li>
+            <li>Localidade: {{endereco.localidade}}</li>
+            <li>Estado: {{endereco.estado}}</li>
+            <li>Região: {{endereco.regiao}}</li>
+        </ul>
+    </div>
+{% endif %}
+
+{% if error %}
+    <div class="alert alert-danger">
+        <strong>Erro: {{error}}</strong>
+    </div>
+{% endif %}
+
+
+{% endblock %}
+        
