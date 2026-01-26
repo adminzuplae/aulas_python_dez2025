@@ -62,3 +62,13 @@ Repositório de aulas para o curso de Python
   - Consultado CEP e Tratando erros
   - Integrando com o Flask
 
+ ## 8. Módulo 008 - Deploy
+  - O que é Deploy e Render
+  - Subindo um projeto e testando
+  - Atualizando um projeto no Render
+
+ ## 9. Módulo 009 - Projeto Final
+  - Planejamento
+  - Componetização e Responsabilidade
+  - Estrutura
+  - Github e Deploy
