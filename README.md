@@ -54,3 +54,11 @@ Repositório de aulas para o curso de Python
   - Forms GET e POST
   - Salvando em CSV
   - Bootstrap, refatoração e subpaginas
+
+ ## 7. Módulo 007 - APIs
+  - Como funciona o HTTP
+  - O que é uma API
+  - Consumindo uma API
+  - Consultado CEP e Tratando erros
+  - Integrando com o Flask
+
