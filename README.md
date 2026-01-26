@@ -44,3 +44,13 @@ Repositório de aulas para o curso de Python
   - Arquivos CSV
   - Arquivos JSON
   - Tratamento de erros
+
+ ## 6. Módulo 006 - Web com Flask
+  - Como funciona a WEB
+  - Ambiente Flask
+  - Criando Rotas
+  - Jinja, templates
+  - Statics, css, img
+  - Forms GET e POST
+  - Salvando em CSV
+  - Bootstrap, refatoração e subpaginas

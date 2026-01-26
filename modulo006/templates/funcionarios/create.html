@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block titulo %} 
+Página Pessoas
+{% endblock %}
+
+{% block conteudo %}
+    <h1>Cadastro de Funcionários</h1>
+    <hr>
+    <form class="col-md-6" method="post" action="/funcionario/save">
+        <div class="mb-3">
+            <label for="nome" class="form-label">Nome</label>
+            <input class="form-control" type="text" name="nome" id="nome" placeholder="Digite o nome" required>
+        </div>
+        <div class="mb-3">
+            <label for="sobrenome" class="form-label">Sobrenome</label>
+            <input class="form-control" type="text" name="sobrenome" id="sobrenome" placeholder="Digite o sobrenome" required>
+        </div>
+        <div class="mb-3">
+            <label for="idade" class="form-label">Idade</label>
+            <input class="form-control" type="number" name="idade" id="idade" placeholder="Digite a idade" required>
+        </div>
+        <div class="mb-3">
+            <label for="salario" class="form-label">Salário</label>
+            <input class="form-control" type="number" step="0.01" name="salario" id="salario" placeholder="Digite o salário" required>
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" name="ativo" id="ativo" class="form-check-input">
+            <label for="ativo" class="form-check-label">Ativo</label>
+        </div>
+
+        <button type="submit" class="btn btn-success">Adicionar</button>
+    </form>
+    <a href="/funcionarios" class="btn btn-secondary ms-2">Voltar</a>
+{% endblock %}
+        
